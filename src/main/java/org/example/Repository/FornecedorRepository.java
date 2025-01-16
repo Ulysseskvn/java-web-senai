@@ -1,11 +1,11 @@
 package org.example.Repository;
 
-import org.example.Entidades.Contato;
+import org.example.Entidades.Fornecedor;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface ContatoRepository extends JpaRepository<Contato, Long> {
+public interface FornecedorRepository extends JpaRepository<Fornecedor, Long> {
 
 
 }

@@ -1,0 +1,9 @@
+org\example\Main.class
+org\example\Recursos\ProdutoResource.class
+org\example\Repository\ProdutoRepository.class
+org\example\Recursos\FornecedorResource.class
+org\example\Servicies\FornecedorService.class
+org\example\Repository\FornecedorRepository.class
+org\example\Servicies\ProdutoService.class
+org\example\Entidades\Produto.class
+org\example\Entidades\Fornecedor.class
