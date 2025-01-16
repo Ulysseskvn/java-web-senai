@@ -43,7 +43,7 @@ public class ClienteResource {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<Object> deleteCliente(@PathVariable Long id) {
+    public ResponseEntity<Object> delete(@PathVariable Long id) {
         return clienteService.buscarPorId(id)
                 .map(existingCliente -> {
                     clienteService.deleteId(id);
